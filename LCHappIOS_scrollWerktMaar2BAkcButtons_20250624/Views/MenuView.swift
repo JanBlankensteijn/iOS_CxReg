@@ -1,0 +1,55 @@
+import SwiftUI
+
+struct MenuView: View {
+    @EnvironmentObject var model: LCHModel
+
+    var body: some View {
+        NavigationView {
+            VStack(spacing: 20) {
+                MenuTile(
+                    title: "Complicaties",
+                    icon: "list.bullet.rectangle",
+                    color: .blue,
+                    destination: ComplicatieView().environmentObject(model)
+                )
+
+                MenuTile(
+                    title: "Codes",
+                    icon: "number.square",
+                    color: .green,
+                    destination: CodeView().environmentObject(model)
+                )
+
+                MenuTile(
+                    title: "Structuur",
+                    icon: "square.grid.3x3.fill",
+                    color: .orange,
+                    destination: StructuurView().environmentObject(model)
+                )
+
+                MenuTile(
+                    title: "Matrix",
+                    icon: "square.grid.3x3.fill",
+                    color: .pink,
+                    destination: MatrixDummyScreen().environmentObject(model)
+                )
+
+                MenuTile(
+                    title: "Feedback",
+                    icon: "paperplane.circle",
+                    color: .purple,
+                    destination: FeedbackView(
+                        categorie: "Algemeen",
+                        actie: "menu",
+                        voorafIngevuld: ""
+                    ).environmentObject(model)
+                )
+
+                Spacer()
+            }
+            .padding()
+            .navigationTitle("Menu")
+        }
+    }
+}
+
