@@ -1,0 +1,22 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserdatad
+*.xcscmblueprint
+*.xcodeproj/project.xcworkspace/xcuserdata/
+xcuserdata/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/
+
+# Logs & temp
+*.log
+*.tmp
+*.swp
