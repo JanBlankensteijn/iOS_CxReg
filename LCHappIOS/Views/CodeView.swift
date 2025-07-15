@@ -128,7 +128,6 @@ struct CodeView: View {
                 }
             }
             .listStyle(PlainListStyle())
-            .scrollDismissesKeyboard(.immediately)
             .environment(\.defaultMinListRowHeight, 10)
 
             NavigationLink(
