@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0013ECE62E267BFD0077CEE1 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0013ECE42E267BFD0077CEE1 /* CodeView.swift */; };
+		0013ECE72E267BFD0077CEE1 /* ComplicatieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0013ECE52E267BFD0077CEE1 /* ComplicatieView.swift */; };
 		002626352DDD152C004E76DD /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002626342DDD152C004E76DD /* InfoView.swift */; };
 		002626362DDD152C004E76DD /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002626332DDD152C004E76DD /* CodeView.swift */; };
 		002626382DDD1553004E76DD /* ComplicatieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002626372DDD1553004E76DD /* ComplicatieView.swift */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0013ECE42E267BFD0077CEE1 /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		0013ECE52E267BFD0077CEE1 /* ComplicatieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicatieView.swift; sourceTree = "<group>"; };
 		002626332DDD152C004E76DD /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
 		002626342DDD152C004E76DD /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		002626372DDD1553004E76DD /* ComplicatieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicatieView.swift; sourceTree = "<group>"; };
@@ -146,6 +150,8 @@
 				007751A02DD9D66800CDED24 /* HelpView.swift */,
 				002626372DDD1553004E76DD /* ComplicatieView.swift */,
 				0077519E2DD9D66800CDED24 /* DetailView.swift */,
+				0013ECE42E267BFD0077CEE1 /* CodeView.swift */,
+				0013ECE52E267BFD0077CEE1 /* ComplicatieView.swift */,
 				002626332DDD152C004E76DD /* CodeView.swift */,
 				00A6025B2DFDB78200206245 /* StructuurView.swift */,
 				00A6024D2DF31B3100206245 /* FeedbackView.swift */,
@@ -306,6 +312,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				00971FD22DCE594C008C890B /* LCHInfo.swift in Sources */,
+				0013ECE62E267BFD0077CEE1 /* CodeView.swift in Sources */,
+				0013ECE72E267BFD0077CEE1 /* ComplicatieView.swift in Sources */,
 				0097204C2DD0E60F008C890B /* LCHWrapper.swift in Sources */,
 				00A6025C2DFDB78200206245 /* StructuurView.swift in Sources */,
 				002626352DDD152C004E76DD /* InfoView.swift in Sources */,
